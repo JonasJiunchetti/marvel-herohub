@@ -1,0 +1,32 @@
+.Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .page {
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .button {
+        border: none;
+        background-color: unset;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .button:hover {
+        transform: scale(1.1);
+    }
+
+    .button:active {
+        transform: scale(0.55);
+        opacity: 0.5;
+    }
+
+    .button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
