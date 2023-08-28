@@ -23,5 +23,5 @@ The project aims to showcase hero cards from the Marvel universe on its homepage
  ## Try it out
  1. Install Node 18.
  2. Clone this repository.
- 3. Run 'npm run dev'
+ 3. Run 'npm install' and 'npm run dev'
  4. You can test it out locally.
